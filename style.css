@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.mainDiv{
+    background-color: lightsteelblue;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+.imgDiv{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+
+.imgDiv img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+ 
+}
+.titleDiv{
+    text-align: center;
+}
+.title{
+    font-size: 25px;
+}
+
+.creater{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.progressDiv{
+    width: 90%;
+    height: 4px;
+    background-color: white;
+    margin:20px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.progress{
+    height: 100%;
+    width: 0%;
+    background-color: black;
+}
+
+.timeDiv{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding:0px 10px;
+    position: relative;
+    top: -25px;
+}
+.musicControlDiv{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.icon{
+    color: gray;
+}
+.icon:hover{
+    color: black;
+    transition: 1s ease;
+}
